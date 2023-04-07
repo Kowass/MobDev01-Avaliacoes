@@ -64,16 +64,16 @@ Ex: Map<String> pessoa = {
 };
 
 18) Qual a sintaxe correta para adicionar um par de chave-valor em um Map em Dart?
-meuMapa[chave] = valor;
+R- meuMapa[chave] = valor;
 
 19) Qual a sintaxe correta para acessar o valor de uma chave em um Map em Dart?
-Mapa[chave];
+R- Mapa[chave];
 
 20) Qual a diferença entre uma lista e um Map em Dart?
-ma lista é usada quando se deseja uma coleção de elementos ordenada e acessada por índices, 
+R- Uma lista é usada quando se deseja uma coleção de elementos ordenada e acessada por índices, 
 enquanto um Map é usado quando se deseja associar valores únicos a chaves e acessá-los por essas chaves.
 
 21) O que é inferencia de tipos em Dart ?
-é uma funcionalidade que permite que o compilador determine
+R- é uma funcionalidade que permite que o compilador determine
 automaticamente o tipo de uma variável com base no valor atribuído a ela. 
 Assim tirando a nescessidade do programador de especificar o tipo da variavel.
