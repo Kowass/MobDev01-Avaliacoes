@@ -1,27 +1,29 @@
 Responda às seguintes questões:
 
 1) Qual a sintaxe correta para declarar uma variável inteira em Dart?
-
+R- int x;
 
 2) Qual a sintaxe correta para declarar uma variável que pode armazenar valores nulos em Dart?
-
+R- int? x = null;
 
 3) Qual o valor padrão de uma variável não inicializada em Dart?
 
 
 4) Qual a sintaxe correta para declarar uma variável do tipo String em Dart?
-
+R- String nome;
 
 5) Qual a sintaxe correta para atribuir um valor à uma variável em Dart?
-
-
+R- int x;
+   x = 20;
 6) Qual a sintaxe correta para declarar e inicializar uma variável em Dart?
-
+R- int x = 89;
 
 7) Quais os tipos de dados numéricos disponíveis em Dart?
+R- inteiros, double(número de ponto flutuantes) e 'num' que são números genéricos
 
-
-8) Qual a diferença entre int e double em Dart?azena valores decimais.
+8) Qual a diferença entre int e double em Dart?
+R-int armazena os valores inteiros, sem casa decimal. Já double armazena valores decimais.
+Ex: int = 5; double = 8.3;
 
 9) Qual a sintaxe correta para converter uma variável do tipo String para int em Dart?
 
@@ -30,7 +32,7 @@ Responda às seguintes questões:
 
 
 11) Qual a sintaxe correta para declarar uma variável constante em Dart?
-
+R- const peso = 85;
 
 12) Qual a sintaxe correta para declarar uma variável final em Dart?
 
@@ -39,13 +41,13 @@ Responda às seguintes questões:
 
 
 14) Qual a sintaxe correta para declarar uma variável do tipo List em Dart?
-
+int x = [];
 
 15) Qual a sintaxe correta para adicionar um elemento em uma lista em Dart?
 
 
 16) Qual a sintaxe correta para acessar o primeiro elemento de uma lista em Dart?
-
+R- 
 
 17) Qual a sintaxe correta para declarar uma variável do tipo Map em Dart?
 
