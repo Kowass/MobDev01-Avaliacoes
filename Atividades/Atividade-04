@@ -7,7 +7,10 @@ R- int x;
 R- int? x = null;
 
 3) Qual o valor padrão de uma variável não inicializada em Dart?
-
+Para tipos numéricos, o valor padrão é 0. 
+Para tipos booleanos, o valor é false. 
+Para tipos de texto(string), o valor padrão é null. 
+Para listas e mapas também será null.
 
 4) Qual a sintaxe correta para declarar uma variável do tipo String em Dart?
 R- String nome;
@@ -26,39 +29,51 @@ R-int armazena os valores inteiros, sem casa decimal. Já double armazena valore
 Ex: int = 5; double = 8.3;
 
 9) Qual a sintaxe correta para converter uma variável do tipo String para int em Dart?
-
+R- String texto = "123";
+   int numero = int.parse(texto);
 
 10) Qual a sintaxe correta para converter uma variável do tipo int para String em Dart?
-
+R- int numero = 123;
+   String texto = numero.toString();
 
 11) Qual a sintaxe correta para declarar uma variável constante em Dart?
 R- const peso = 85;
 
 12) Qual a sintaxe correta para declarar uma variável final em Dart?
-
+R- final int idade;
 
 13) Qual a diferença entre uma variável constante e final em Dart?
-
+A principal diferença entre elas é que as variáveis final são inicializadas em tempo de execução,
+enquanto as variáveis const são inicializadas em tempo de compilação.
 
 14) Qual a sintaxe correta para declarar uma variável do tipo List em Dart?
-int x = [];
+R- int x = [];
 
 15) Qual a sintaxe correta para adicionar um elemento em uma lista em Dart?
-
+R- x[3] = 10;
 
 16) Qual a sintaxe correta para acessar o primeiro elemento de uma lista em Dart?
-R- 
+R- List<int> x = [1,2,3,4];
+   primeiro = x[0];
 
 17) Qual a sintaxe correta para declarar uma variável do tipo Map em Dart?
-
+Ex: Map<String> pessoa = {
+  'nome': 'João',
+  'idade': 30,
+  'email': 'joao@example.com'
+};
 
 18) Qual a sintaxe correta para adicionar um par de chave-valor em um Map em Dart?
-
+meuMapa[chave] = valor;
 
 19) Qual a sintaxe correta para acessar o valor de uma chave em um Map em Dart?
-
+Mapa[chave];
 
 20) Qual a diferença entre uma lista e um Map em Dart?
-
+ma lista é usada quando se deseja uma coleção de elementos ordenada e acessada por índices, 
+enquanto um Map é usado quando se deseja associar valores únicos a chaves e acessá-los por essas chaves.
 
 21) O que é inferencia de tipos em Dart ?
+é uma funcionalidade que permite que o compilador determine
+automaticamente o tipo de uma variável com base no valor atribuído a ela. 
+Assim tirando a nescessidade do programador de especificar o tipo da variavel.
