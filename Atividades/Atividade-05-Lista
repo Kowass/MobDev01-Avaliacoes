@@ -1,43 +1,70 @@
 Responda às seguintes questões:
 
 1) O que é uma lista em Dart?
+R- Lista é uma coleção de elementos ordenada e acessada por índices, pode conter objetos duplicados e null.
 
 2) Como criar uma lista vazia em Dart?
+R- List x = [];
 
 3) Como criar uma lista com elementos em Dart?
+R- int list = [1, 2, 3];
 
 4) Qual a diferença entre uma lista e um conjunto em Dart?
+R- Uma lista é uma coleção ordenada de elementos, em que cada elemento pode ser acessado por sua posição na lista (índice). 
+   Já um conjunto é uma coleção de elementos que não possui ordem definida e não permite elementos duplicados.
 
 5) Como acessar um elemento específico de uma lista em Dart?
+R- só colocar o indíce desse elemento dentro dos [], Ex: list[3]
 
 6) Como adicionar um elemento ao final de uma lista em Dart?
+R- Lista.add("item");
 
 7) Como inserir um elemento em uma posição específica de uma lista em Dart?
+R- list[3] = 44;
 
 8) Como remover um elemento de uma lista em Dart?
+R- Lista.remove("item");
 
 9) Como verificar se uma lista contém um determinado elemento em Dart?
+R- Para isso pode-se usar o metodo .contains().
+  Ex: lista.contains(2)
 
 10) Como ordenar uma lista em ordem crescente em Dart?
+R- pode-se usar o metodo .sort()
 
 11) Como ordenar uma lista em ordem decrescente em Dart?
+R- pode-se usar o metodo .sort() para ordenar em ordem crescente e depois usar o metodo .reversed
+para reverter a lista e obter ela em ordem decrescente 
 
 12) Como copiar uma lista em Dart?
+R- Pode-se usar o metodo .from.
+Ex: ListaCopiada = List<int>.from(lista)
 
 13) Como verificar se duas listas são iguais em Dart?
+ R- pode-se usar o metodo .equals.
+ Ex: lista1.equals(lista2) > true\false
 
 14) Como criar uma lista a partir de outra lista em Dart?
+R- Pode-se usar o metodo from() ou toList()
+Ex: List<String> lista2 = lista1.toList();
 
 15) Como transformar uma lista em uma lista de strings em Dart?
+R- Pode-se transformar uma lista em uma lista de strings usando o método map() e o método toString(). 
+O método map() é usado para aplicar uma função a cada elemento da lista e retornar uma nova lista com os resultados.
+O método toString() irá converter os itens em uma lista de string novamente.
 
 16) Como calcular a soma dos elementos de uma lista em Dart?
+R- Pode-se calcular a soma dos elementos de uma lista usando o método reduce(). 
+O método reduce() é usado para reduzir uma lista a um único valor, aplicando uma função a cada elemento da lista e acumulando o resultado.
 
 17) Como calcular a média dos elementos de uma lista em Dart?
+R- Pode-se pegar a soma usando o metodo reduce e depois dividir pelo tamanho da lista, obtendo esse tamanho usando o metodo length.
 
 18) Como calcular o valor máximo e mínimo de uma lista em Dart?
+R- Pode-se ordenar a função usando o metodo .sort() e pegar o primeiro e ultimo elemento. Assim obtendo o menor e maior valor.
 
 19) Como contar quantas vezes um elemento aparece em uma lista em Dart?
+R- Pode-se usar o metodo .where() e assim saber a quatidade de vezes que ele ocorre.
 
 20) Como remover todos os elementos duplicados de uma lista em Dart?
-
-21) Espero que essa prova ajude a avaliar o conhecimento dos alunos sobre Listas em Dart!
+R- Pode-se usar o metodo toSet e depois o metodo toList para transformar em uma lista novamente. Assim removendo todos os itens repetidos.
