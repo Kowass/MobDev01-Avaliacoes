@@ -1,34 +1,58 @@
 Responda às seguintes questões:
 
 01) O que é um conjunto em Dart?
+R- um conjunto (set) é uma coleção de objetos não ordenada e que não permite elementos duplicados. 
 
 02) Como criar um conjunto vazio em Dart?
+R- Set<String> conjuntoVazio = {};
 
 03) Como criar um conjunto com elementos em Dart?
+R- Set<int> num = {1, 2, 3, 4, 5};
 
 04) Qual a diferença entre um conjunto e uma lista em Dart?
+R- Uma lista é uma coleção ordenada de elementos, em que cada elemento pode ser acessado por sua posição na lista (índice). 
+   Já um conjunto é uma coleção de elementos que não possui ordem definida e não permite elementos duplicados.
 
 05) Como adicionar um elemento a um conjunto em Dart?
+R- Pode-se utilizar o metodo add() ou addAll() para adicionar novo elementos
+Ex: num.add(7);
 
 06) Como remover um elemento de um conjunto em Dart?
+R- Utilizando o metodo remove()
+Ex: num.remove(5);
 
 07) Como verificar se um conjunto contém um determinado elemento em Dart?
+R- Utilizando o metodo contains()
+Ex: numeros.contains(10); > true\false
 
 08) Como verificar se um conjunto é vazio em Dart?
+R- Pode-se utilizar os metodos isEmpty e isNotEmpty, eles retornaram valores booleanos
 
 09) Como unir dois conjuntos em Dart?
+R- Pode-se utilizar o metodo union ou o operador |
+Ex: união = conjuto1 | conjunto 2; ou união = conjunto1.union(conjunto2);
 
 10) Como obter a interseção de dois conjuntos em Dart?
+R- pode-se utilizar o metodo intersection ou o operador &
+Ex: intersecao = conjuto1 & conjunto 2; ou intersecao = conjunto1.intersection(conjunto2);
 
 11) Como obter a diferença entre dois conjuntos em Dart?
+R- pode-se utilizar o metodo difference ou o operador -
+Ex: diferenca = conjuto1 - conjunto 2; ou diferenca = conjunto1.difference(conjunto2);
 
 12) Como verificar se um conjunto é subconjunto de outro conjunto em Dart?
+R- Pode-se fazer a verificação se o conjunto tem todos os valores do subconjunto usando o metodo containsAll 
+   ou usar o metodo subsetOf para verificar se o conjunto é subcojunto do outro ou não
 
 13) Como verificar se dois conjuntos são iguais em Dart?
+R- Pode-se fazer a verificação testando se o conjunto tem todos os valores do outro conjunto usando o metodo containsAll
+   e em seguida testando se eles tem o mesmo tamanho usando o metodo length
 
 14) Como criar um conjunto a partir de uma lista em Dart?
+R- pode-se criar um conjunto a partir de uma lista utilizando o construtor da classe Set e passando a lista como argumento.
 
 15) Como criar uma lista a partir de um conjunto em Dart?
+R- pode-se fazer isso de forma analoga a como criar um conjunto a partir de uma lista, passando o conjunto como argumento para o metodo construtor.
 
 16) Como transformar um conjunto em uma lista de strings em Dart?
 
