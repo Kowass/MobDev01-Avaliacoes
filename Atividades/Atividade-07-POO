@@ -5,7 +5,7 @@ c) Um modelo de banco de dados
 d) Um sistema operacional
 
 02) Qual a principal vantagem da POO?
-a) Código mais fácil de entender e manter
+X a) Código mais fácil de entender e manter
 b) Melhor desempenho
 c) Menor consumo de memória
 d) Maior compatibilidade com outras linguagens
@@ -18,9 +18,9 @@ d) Um conjunto de variáveis globais
 
 04) O que é um objeto em POO?
 a) Um conjunto de variáveis globais
-b) Uma estrutura de dados que contém propriedades e métodos
+X b) Uma estrutura de dados que contém propriedades e métodos
 c) Uma função que retorna um valor
-X d) Uma classe abstrata
+d) Uma classe abstrata
 
 05) O que é herança em POO?
 X a) Uma forma de reutilizar código de uma classe existente em uma nova classe
@@ -29,13 +29,13 @@ c) Uma forma de criar uma cópia de uma classe existente
 d) Uma forma de alterar o comportamento de uma classe existente
 
 06) O que é polimorfismo em POO?
-X a) A capacidade de uma classe de ser estendida para outras classes
-b) A capacidade de uma classe de assumir várias formas
+a) A capacidade de uma classe de ser estendida para outras classes
+X b) A capacidade de uma classe de assumir várias formas
 c) A capacidade de uma classe de ser dividida em partes menores
 d) A capacidade de uma classe de ser usada em diferentes linguagens de programação
 
 07) O que é encapsulamento em POO?
-a) A capacidade de esconder a implementação interna de uma classe
+X a) A capacidade de esconder a implementação interna de uma classe
 b) A capacidade de usar uma classe em diferentes linguagens de programação
 c) A capacidade de alterar o comportamento de uma classe existente
 d) A capacidade de reutilizar código de uma classe existente em uma nova classe
@@ -47,13 +47,13 @@ c) Um tipo de classe que pode ser instanciado diretamente
 d) Uma forma de criar objetos sem usar classes
 
 09) O que é composição em POO?
-X a) Uma forma de reutilizar código de uma classe existente em uma nova classe
+a) Uma forma de reutilizar código de uma classe existente em uma nova classe
 b) Uma forma de criar uma cópia de uma classe existente
 c) Uma forma de proteger o código de uma classe
-d) Uma forma de criar um objeto composto por outros objetos
+X d) Uma forma de criar um objeto composto por outros objetos
 
 10) O que é agregação em POO?
-a) Uma forma de criar um objeto composto por outros objetos
+X a) Uma forma de criar um objeto composto por outros objetos
 b) Uma forma de reutilizar código de uma classe existente em uma nova classe
 c) Uma forma de proteger o código de uma classe
 d) Uma forma de criar uma cópia de uma classe existente
@@ -69,7 +69,7 @@ d) Menor complexidade e facilidade de manutenção.
 a) Uma instância de um objeto.
 b) Um tipo de dado.
 c) Um construtor de objetos.
-d) Um modelo para criar objetos.
+X d) Um modelo para criar objetos.
 
 13) Como se define uma classe em Dart?
 X a) class NomeDaClasse { }
@@ -102,7 +102,7 @@ c) Uma técnica que permite que objetos de uma mesma classe sejam tratados de ma
 d) Uma técnica que permite que objetos de uma mesma classe sejam tratados de maneira diferente.
 
 18) Qual é a diferença entre uma classe abstrata e uma classe concreta em Dart?
-a) Uma classe abstrata não pode ser instanciada diretamente, enquanto uma classe concreta pode ser.
+X a) Uma classe abstrata não pode ser instanciada diretamente, enquanto uma classe concreta pode ser.
 b) Uma classe abstrata pode ser instanciada diretamente, enquanto uma classe concreta não pode ser.
 c) Uma classe abstrata não pode ser estendida, enquanto uma classe concreta pode ser.
 d) Uma classe abstrata pode ser estendida, enquanto uma classe concreta não pode ser.
@@ -115,6 +115,6 @@ d) Uma classe que não pode ser estendida.
 
 20) O que é um relacionamento de associação em um diagrama de classes em POO?
 a) É quando uma classe é uma extensão de outra classe, herdando seus atributos e métodos.
-b) É quando uma classe usa a funcionalidade de outra classe sem herdar seus atributos e métodos.
+X b) É quando uma classe usa a funcionalidade de outra classe sem herdar seus atributos e métodos.
 c) É quando uma classe contém outra classe como propriedade.
 d) É quando uma classe é composta por outras classes.
