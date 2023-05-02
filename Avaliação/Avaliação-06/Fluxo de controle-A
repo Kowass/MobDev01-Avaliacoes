@@ -50,7 +50,7 @@ d) Encerrar um loop ou switch.
 
 09) Qual é a função da instrução continue em Dart?
 a) Encerrar um loop ou switch.
-b) Ignorar o resto do bloco de código atual e continuar a execução no próximo bloco.
+X b) Ignorar o resto do bloco de código atual e continuar a execução no próximo bloco.
 c) Encerrar a execução do programa.
 d) Encerrar o bloco de código atual e continuar a execução no bloco anterior.
 
