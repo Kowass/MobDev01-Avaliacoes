@@ -1,41 +1,94 @@
 Prova de Fluxo de Controle em Dart
 
 01) O que é Fluxo de Controle em Dart?
+R- Fluxo de Controle em Dart é a maneira como o código é executado em um programa. 
 
 02) Quais são as três estruturas básicas de Fluxo de Controle em Dart?
+R- estruturas de loop, de controle de exceção e estruturas condicionais
 
 03) O que é uma instrução if em Dart?
+R- é uma estrutura de controle condicional em Dart que permite que um bloco de código seja executado se uma determinada condição for verdadeira.
 
 04) O que é uma instrução if-else em Dart?
+R- é uma estrutura de controle condicional que permite que um bloco de código seja executado se uma determinada condição for verdadeira,
+e outro bloco de código seja executado se a condição for falsa.
 
 05) O que é uma instrução switch em Dart?
+R-é uma estrutura de controle de fluxo condicional que permite que um bloco de código seja executado com base no valor de uma expressão.
 
 06) Como usar a instrução switch em Dart?
-
+R- switch (expressão) {
+  case valor1:
+    break;
+  case valor2:
+    break;
+ }
 07) O que é uma instrução for em Dart?
+R- uma instrução for é usada para repetir um bloco de código um determinado número de vezes. 
 
 08) Como usar a instrução for em Dart?
+R-for (int i = 1; i <= 5; i++) {
+  print(i);
+}
 
 09) O que é uma instrução while em Dart?
+R-a instrução while é usada para executar um bloco de código repetidamente enquanto uma determinada condição é verdadeira.
 
 10) Como usar a instrução while em Dart?
+R-int i = 1;
+
+while (i <= 5) {
+  print(i);
+  i++;
+}
 
 11) O que é uma instrução do-while em Dart?
+R- A diferença entre do-while e while é que a instrução do-while executa o bloco de código pelo menos uma vez antes de verificar a condição
 
 12) Como usar a instrução do-while em Dart?
+R-do {
+
+} while (condição);
 
 13) O que é uma instrução break em Dart?
+R- ela é usada para interromper um loop ou um switch antes que a condição normal de término seja atingida.
 
 14) Como usar a instrução break em Dart?
-
+R- switch (expressão) {
+  case valor1:
+    break;
+}
 15) O que é uma instrução continue em Dart?
+R- é usada para pular a execução das próximas linhas de um loop para uma nova iteração, sem executar o código que está abaixo da instrução continue.
 
 16) Como usar a instrução continue em Dart?
-
+R-
+for (var i = 0; i < 10; i++) {
+  if (i % 2 != 0) {
+    continue;
+  }
+  print(i);
+}
+// saída: 0, 2, 4, 6, 8
 17) O que é uma instrução try-catch em Dart?
+R-A instrução try-catch é uma estrutura de controle utilizada para manipulação de exceções em Dart.
 
 18) Como usar a instrução try-catch em Dart?
+R-
+try {
 
+} catch (exception) {
+
+}
 19) O que é uma instrução finally em Dart?
+R-A instrução finally em Dart é usada em conjunto com a instrução try-catch para executar um bloco de código independentemente de uma exceção ser lançada ou não.
 
 20) Como usar a instrução finally em Dart?
+R-
+try {
+
+} catch (e) {
+ 
+} finally {
+  
+}
