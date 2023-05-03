@@ -41,31 +41,33 @@ R-usando o operador de indexação []. Ex:
 mapa['um'] = 10;
 
 11) Como obter todas as chaves de um mapa em Dart?
-R-
+R- Pode-se usar o metodo .keys
 
 12) Como obter todos os valores de um mapa em Dart?
-R-
+R- POde-se usar o metodo .values
 
 13) Como verificar se duas chaves em um mapa são iguais em Dart?
-R-
+R- pode usar o operador == ou o método compareTo.
 
 14) Como criar um mapa a partir de duas listas em Dart?
-R-
+R- usando o método Map.fromIterables. Ex:
+Map.fromIterables(chaves, valores)
 
 15) Como criar uma lista de chaves a partir de um mapa em Dart?
-R-
+R- DO seguinte modo: List.from(mapa.keys);
 
 16) Como criar uma lista de valores a partir de um mapa em Dart?
-R-
+R- List.from(mapa.values)
 
 17) Como transformar um mapa em uma lista de pares chave-valor em Dart?
-R-
+R- pode usar a propriedade entries do mapa, que retorna um iterável de objetos MapEntry
 
 18) Como remover todos os elementos de um mapa em Dart?
-R-
+R-Com o método clear() 
 
 19) Como calcular o tamanho de um mapa em Dart?
-R-
+R- pode usar a propriedade length
 
 20) Como verificar se dois mapas são iguais em Dart?
-R-
+R-pode usar o método containsAll().
+
