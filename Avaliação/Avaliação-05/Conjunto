@@ -55,11 +55,17 @@ R- pode-se criar um conjunto a partir de uma lista utilizando o construtor da cl
 R- pode-se fazer isso de forma analoga a como criar um conjunto a partir de uma lista, passando o conjunto como argumento para o metodo construtor.
 
 16) Como transformar um conjunto em uma lista de strings em Dart?
+R- Pode-se fazer a transformação utilizando o metódo .toList() e em seguida o metodo .map()
 
 17) Como calcular a união de vários conjuntos em Dart?
+R- Faz-se isso usando o método union()
 
 18) Como calcular a interseção de vários conjuntos em Dart?
+R- Faz-se isso usando o método intersection()
 
 19) Como verificar se dois conjuntos são disjuntos em Dart?
+R- Usando o metodo intersectiom() e verificando se a interção tem valores em comum ou não
 
 20) Como remover todos os elementos duplicados de uma lista usando um conjunto em Dart?
+R- Simples, apenas precisa-se fazer a transformação da lista em um conjunto, usando por exemplo o metodo Set.from(), que ele criará 
+um conjunto sem itens duplicados.
